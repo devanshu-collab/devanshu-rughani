@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Personal Website</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      text-align: center;
+      background: #f4f4f4;
+      color: #333;
+    }
+    .card {
+      max-width: 600px;
+      margin: 50px auto;
+      padding: 20px;
+      background: white;
+      border-radius: 15px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.2);
+    }
+    img {
+      width: 120px;
+      height: 120px;
+      border-radius: 50%;
+    }
+  </style>
+</head>
+<body>
+  <div class="card">
+    <img src="your-photo.jpg" alt="My Photo">
+    <h1>Your Name</h1>
+    <p><strong>About Me:</strong> I am passionate about ...</p>
+    <p><strong>Email:</strong> youremail@example.com</p>
+    <p><strong>Social:</strong> <a href="#">LinkedIn</a> | <a href="#">GitHub</a></p>
+  </div>
+</body>
+</html>
